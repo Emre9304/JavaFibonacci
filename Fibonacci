@@ -1,0 +1,30 @@
+package giris;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Eleman sayısı giriniz: ");
+        int eleman = input.nextInt();
+        int birincieleman = 0;
+        int ikincieleman = 1;
+        int sonuc =0;
+       for (int i = 1;i<=eleman+1;i++){
+           System.out.print(birincieleman+" , ");
+           sonuc = birincieleman+ikincieleman;
+           birincieleman = ikincieleman;
+           ikincieleman = sonuc;
+
+
+        }}
+
+
+
+}
+
+
+
+
+
+
+
